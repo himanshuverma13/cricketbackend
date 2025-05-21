@@ -1,10 +1,12 @@
 const express = require('express');
 const socketIO = require('socket.io');
 const http = require('http')
-const port = process.env.PORT || 5007
+const port = process.env.PORT || 7007
 var app = express();
 let server = http.createServer(app);
 var io = socketIO(server);
+
+// NRAK-GKTGF74K9MAZKLIG2E889MU8BLO
 
 // make connection with user from server side
 io.on('connection',
