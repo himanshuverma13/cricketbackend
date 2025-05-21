@@ -9,6 +9,7 @@ var io = socketIO(server);
 // NRAK-GKTGF74K9MAZKLIG2E889MU8BLO
 
 // make connection with user from server side
+
 io.on('connection',
     (socket) => {
         console.log('New user connected');
